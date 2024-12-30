@@ -1,0 +1,200 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", serif;
+  font-weight: 600;
+  text-decoration: none;
+  list-style: none; 
+}
+
+.header{
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 35px 12%;
+  background: black;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.logo{
+  font-size: 25px;
+  color: rgb(17, 248, 0);
+  font-weight: 600;
+  transition: 0.s ease;
+}
+
+.logo:hover{
+  color: rgb(17, 248, 0);
+  text-shadow: 0 0 25px rgb(17, 248, 0) , 0 0 50px rgb(17, 248, 0);
+  transform:scale(1.1);
+}
+.navbar a{
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  margin: 0 20px;
+  border-bottom: 3px solid transparent;
+  transition: 0.3 ease;
+  
+}
+
+.navbar a:hover,
+.navbar a.active{
+  color: rgb(17, 248, 0);
+  border-bottom: 3px solid rgb(17, 248, 0);
+
+}
+
+.activities{
+  height: 250vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(123, 179, 120);
+}
+
+
+.activities .title{
+  color: black;
+  margin-top: 120px;
+  margin-bottom: 20px;
+  top: 0px;
+  position: absolute;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.studentcouncil-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.studentcouncil-box{
+  height: 600px;
+  width: 1200px;
+  border: 2px solid;
+  border-radius: 10px;
+  align-items: flex-start;
+  display: flex;
+  margin-top: 10px;
+  background-color: rgb(242, 241, 219);
+  margin-bottom: 20px;
+}
+
+.subtitle{
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+
+.studentcouncil-box img{
+  height: 500px;
+  width : 700px;
+  border-radius: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.studentcouncil-text{
+  margin-right: 50px;
+  width: 375px;
+}
+
+.volunteer-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.volunteer-box{
+  height: 600px;
+  width: 1200px;
+  border: 2px solid;
+  border-radius: 20px;
+  align-items: flex-start;
+  display: flex;
+  margin-top: 50px;
+  background-color: rgb(242, 241, 219);
+}
+
+.volunteer-box img{
+  height: 500px;
+  width : 700px;
+  border-radius: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.volunteer-text{
+  margin-right: 50px;
+  width: 375px;
+}
+
+.iep-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iep-box{
+  height: 600px;
+  width: 1200px;
+  border: 2px solid;
+  border-radius: 20px;
+  align-items: flex-start;
+  display: flex;
+  margin-top: 50px;
+  background-color: rgb(242, 241, 219);
+}
+
+.iep-box img{
+  height: 500px;
+  width : 700px;
+  border-radius: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.iep-text{
+  margin-right: 50px;
+  width: 375px;
+}
+
+.footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 40px 0;
+  background-color: black;
+}
+.footer .social{
+  text-align: center;
+  padding-bottom: 25px;
+  color: white;
+}
+.footer .social a{
+  font-size: 24px;
+  color:white;
+  border: 2px solid rgb(17, 248, 0);
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius:50%;
+  margin: 0 8px;
+  transition: 0.3 ease;
+}
